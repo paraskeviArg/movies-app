@@ -1,0 +1,149 @@
+@font-face {
+   font-family: 'font';
+   src: url(Sansation/Sansation_Light.ttf); 
+}
+body{
+    background-color:#A9A9A9;
+    display:grid;
+	font-family: font;
+    text-align:center;
+    
+}
+h1{
+	font-size:60px;
+	text-align:center;
+	  margin-top: 70px;
+	 color: white;
+}
+footer{
+	padding:20px;
+	margin:20px;
+    text-align: center;
+	color:white;
+	background-color:black;
+	width:70%;
+	border-radius:5px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color:lawngreen;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+	}
+	.table {
+		width:70%;
+	}
+}
+
+button{
+	background-color:#32CD32;
+    border: 1px solid grey;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin:10px;
+    border-radius:5px;
+}
+#login,#register,#logout,#myBookmarks,#myLikes{
+    float: right;
+    }
+#home{
+background-color:orange;
+}
+td{
+    color:white;
+}
+input{
+    background-color:#32CD32;
+    color:white;
+    border-radius:3px;
+    border: 1px solid black;
+}
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+#main{
+	background-image:url(black_trans.png);
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+    margin-bottom:5px;
+    border-radius:5px;
+	padding:20px;
+	color:white;
+}
+#buttons{
+	margin:10px;
+		box-sizing: border-box;
+}
+#searchBar{
+    text-align: center;
+}
+#searchText{
+    background-color:white;
+    width:300px;
+    height:30px;
+    border-radius:10px;
+    color:black;
+}
+#movies img, #movie img{
+    border : 5px solid black;
+    width:20%;
+}
+h3{
+	color:red;
+	
+}
+h2{
+	color:white;
+	
+}
+#id2{
+    width:100%;
+    text-align:center;
+}
+.container{
+    background-image: url(hmo.jpg);
+  background-repeat: repeat;
+  background-size: auto;
+
+}
+.table{
+	padding:30px;
+     background-color:dimgray;
+    display:flex;
+    justify-content: center;
+    border:10px solid black;
+    border-radius:2px;
+	width:40%;
+	margin:auto;
+	min-width:300px;
+}
+.class1{
+    grid-column:1;
+}
+.class2{
+    grid-column:2;
+}
+.row{
+    grid-column:1;
+}
+.row1{
+    grid-column:2;
+}
